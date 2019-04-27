@@ -18,3 +18,10 @@ git remote add origin "url del servidor"
 
 Enviar commits al servidor
 git push -u origin "nombre del branch"
+
+Clonar repositorio
+  local
+  git clone "path de la carpeta" 
+
+  remoto
+  git clone "url del servidor"
