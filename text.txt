@@ -25,3 +25,27 @@ Clonar repositorio
 
   remoto
   git clone "url del servidor"
+
+Crear branch
+git checkout -b "nombre del branch"
+
+Cambiar de branch
+git checkout "nombre del branch"
+
+Eliminar branch
+git branch -d "nombre del branch"
+
+Descargar cambios
+git pull
+
+Fusionar cambios
+git merge "nombre del branch"
+
+Comparar branch
+git diff "nombre del branch" "target_branch"
+
+Estado 
+git status
+
+Log
+git log
