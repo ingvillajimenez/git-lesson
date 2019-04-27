@@ -1,1 +1,20 @@
 Mi primer comentario con git
+
+git config --global user.email "email@email.com"
+git config --global user.name "username"
+
+Crear repositorio
+git init
+
+Agregar archivos al index
+git add "nombre del archivo"
+git add .
+
+Agregar comentario
+git commit -m "mi comentario"
+
+Agregar remoto
+git remote add origin "url del servidor"
+
+Enviar commits al servidor
+git push -u origin "nombre del branch"
